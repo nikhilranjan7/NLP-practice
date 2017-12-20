@@ -1,0 +1,11 @@
+## Tokenizer : Are of two types,
+               word Tokenizer -- separates by words
+               sentence Tokenizer -- separated by sentence
+
+## Corpora : Body of text ,eg, medical journal, English language, (basically anything revolving around the same topic)
+
+## Lexicon : word and their meaning, jargon specific meaning, or the meaning related to the context(corpora)
+
+## stop words : words we don't care about, eg., a, an, the
+
+## Stemming : To derive a root word from the various form of the same word, eg, riding -- ride
