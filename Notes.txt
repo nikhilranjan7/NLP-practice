@@ -8,8 +8,10 @@
 
 ## stop words : words we don't care about, eg., a, an, the
 
-## Stemming : To derive a root word from the various form of the same word, eg, riding -- ride
+## Stemming : To derive a root word from the various form of the same word, eg, riding -- rid
 
 ## Chunking : Using regular expression in pos tagging to find any specific tag and word.
 
-## Chinking : Removal of anyextra thing from chunk 
+## Chinking : Removal of anyextra thing from chunk
+
+## Lemmatizing : Same as stemming but the root word has some meaning and similar to the original word
