@@ -9,3 +9,5 @@
 ## stop words : words we don't care about, eg., a, an, the
 
 ## Stemming : To derive a root word from the various form of the same word, eg, riding -- ride
+
+## Chunking : Using regular expression in pos tagging to find any specific tag and word.
