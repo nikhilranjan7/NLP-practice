@@ -15,3 +15,5 @@
 ## Chinking : Removal of anyextra thing from chunk
 
 ## Lemmatizing : Same as stemming but the root word has some meaning and similar to the original word
+
+## Wordnet : Dictionary of NLTK
