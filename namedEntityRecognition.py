@@ -22,7 +22,7 @@ sample_text = state_union.raw("2006-GWBush.txt")
 
 custom_sent_tokenizer = PunktSentenceTokenizer(train_text)      # To train the model, no labelling required as it is unsupervised
 
-tokenized = custom_sent_tokenizer.tokenize(sample_text)
+tokenized = custom_sent_tokenizer.tokenize("Nikhil and John are working at Google.")
 
 def process_content():
     try:
@@ -31,7 +31,8 @@ def process_content():
             tagged = nltk.pos_tag(words)  # Part of speech tagging, tuple with (word, pos)
 
             namedEnt = nltk.ne_chunk(tagged)
-
+            multiline_string = nltk.chunk.tree2conllstr(namedEnt)
+            print(multiline_string.split()[1::3])
             namedEnt.draw()
 
 
